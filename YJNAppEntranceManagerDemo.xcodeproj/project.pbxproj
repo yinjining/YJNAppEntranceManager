@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7910291823CDA71A003467AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910291723CDA71A003467AD /* AppDelegate.m */; };
+		7910291B23CDA71A003467AD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910291A23CDA71A003467AD /* SceneDelegate.m */; };
+		7910291E23CDA71A003467AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910291D23CDA71A003467AD /* ViewController.m */; };
+		7910292123CDA71A003467AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7910291F23CDA71A003467AD /* Main.storyboard */; };
+		7910292323CDA71B003467AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7910292223CDA71B003467AD /* Assets.xcassets */; };
+		7910292623CDA71B003467AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7910292423CDA71B003467AD /* LaunchScreen.storyboard */; };
+		7910292923CDA71B003467AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910292823CDA71B003467AD /* main.m */; };
+		7910293323CDA71B003467AD /* YJNAppEntranceManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910293223CDA71B003467AD /* YJNAppEntranceManagerDemoTests.m */; };
+		7910293E23CDA71B003467AD /* YJNAppEntranceManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910293D23CDA71B003467AD /* YJNAppEntranceManagerDemoUITests.m */; };
+		7910295A23CDA751003467AD /* YJNSceneDelegateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910294D23CDA751003467AD /* YJNSceneDelegateExtension.m */; };
+		7910295B23CDA751003467AD /* UIWindowScene+YJNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910294E23CDA751003467AD /* UIWindowScene+YJNExtension.m */; };
+		7910295C23CDA751003467AD /* YJNSceneDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910295123CDA751003467AD /* YJNSceneDelegateManager.m */; };
+		7910295D23CDA751003467AD /* YJNAppDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910295723CDA751003467AD /* YJNAppDelegateManager.m */; };
+		7910295E23CDA751003467AD /* YJNAppDelegateExtesion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910295823CDA751003467AD /* YJNAppDelegateExtesion.m */; };
+		7910295F23CDA751003467AD /* UIApplication+YJNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910295923CDA751003467AD /* UIApplication+YJNExtension.m */; };
+		7910296223CDAAE6003467AD /* FirstWayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910296123CDAAE6003467AD /* FirstWayAppDelegate.m */; };
+		7910296523CDAB65003467AD /* SecondWayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910296423CDAB65003467AD /* SecondWayAppDelegate.m */; };
+		7910296823CDAC15003467AD /* FirstWaySceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910296723CDAC15003467AD /* FirstWaySceneDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7910292F23CDA71B003467AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7910290B23CDA71A003467AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7910291223CDA71A003467AD;
+			remoteInfo = YJNAppEntranceManagerDemo;
+		};
+		7910293A23CDA71B003467AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7910290B23CDA71A003467AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7910291223CDA71A003467AD;
+			remoteInfo = YJNAppEntranceManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7910291323CDA71A003467AD /* YJNAppEntranceManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJNAppEntranceManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7910291623CDA71A003467AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7910291723CDA71A003467AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7910291923CDA71A003467AD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7910291A23CDA71A003467AD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7910291C23CDA71A003467AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7910291D23CDA71A003467AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7910292023CDA71A003467AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7910292223CDA71B003467AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7910292523CDA71B003467AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7910292723CDA71B003467AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7910292823CDA71B003467AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7910292E23CDA71B003467AD /* YJNAppEntranceManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJNAppEntranceManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7910293223CDA71B003467AD /* YJNAppEntranceManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJNAppEntranceManagerDemoTests.m; sourceTree = "<group>"; };
+		7910293423CDA71B003467AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7910293923CDA71B003467AD /* YJNAppEntranceManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJNAppEntranceManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7910293D23CDA71B003467AD /* YJNAppEntranceManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJNAppEntranceManagerDemoUITests.m; sourceTree = "<group>"; };
+		7910293F23CDA71B003467AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7910294D23CDA751003467AD /* YJNSceneDelegateExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJNSceneDelegateExtension.m; sourceTree = "<group>"; };
+		7910294E23CDA751003467AD /* UIWindowScene+YJNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindowScene+YJNExtension.m"; sourceTree = "<group>"; };
+		7910294F23CDA751003467AD /* YJNSceneDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJNSceneDelegateManager.h; sourceTree = "<group>"; };
+		7910295023CDA751003467AD /* YJNSceneDelegateExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJNSceneDelegateExtension.h; sourceTree = "<group>"; };
+		7910295123CDA751003467AD /* YJNSceneDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJNSceneDelegateManager.m; sourceTree = "<group>"; };
+		7910295223CDA751003467AD /* UIWindowScene+YJNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindowScene+YJNExtension.h"; sourceTree = "<group>"; };
+		7910295423CDA751003467AD /* YJNAppDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJNAppDelegateManager.h; sourceTree = "<group>"; };
+		7910295523CDA751003467AD /* YJNAppDelegateExtesion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJNAppDelegateExtesion.h; sourceTree = "<group>"; };
+		7910295623CDA751003467AD /* UIApplication+YJNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+YJNExtension.h"; sourceTree = "<group>"; };
+		7910295723CDA751003467AD /* YJNAppDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJNAppDelegateManager.m; sourceTree = "<group>"; };
+		7910295823CDA751003467AD /* YJNAppDelegateExtesion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJNAppDelegateExtesion.m; sourceTree = "<group>"; };
+		7910295923CDA751003467AD /* UIApplication+YJNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+YJNExtension.m"; sourceTree = "<group>"; };
+		7910296023CDAAE6003467AD /* FirstWayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstWayAppDelegate.h; sourceTree = "<group>"; };
+		7910296123CDAAE6003467AD /* FirstWayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstWayAppDelegate.m; sourceTree = "<group>"; };
+		7910296323CDAB65003467AD /* SecondWayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondWayAppDelegate.h; sourceTree = "<group>"; };
+		7910296423CDAB65003467AD /* SecondWayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondWayAppDelegate.m; sourceTree = "<group>"; };
+		7910296623CDAC15003467AD /* FirstWaySceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstWaySceneDelegate.h; sourceTree = "<group>"; };
+		7910296723CDAC15003467AD /* FirstWaySceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstWaySceneDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7910291023CDA71A003467AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7910292B23CDA71B003467AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7910293623CDA71B003467AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7910290A23CDA71A003467AD = {
+			isa = PBXGroup;
+			children = (
+				7910291523CDA71A003467AD /* YJNAppEntranceManagerDemo */,
+				7910293123CDA71B003467AD /* YJNAppEntranceManagerDemoTests */,
+				7910293C23CDA71B003467AD /* YJNAppEntranceManagerDemoUITests */,
+				7910291423CDA71A003467AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7910291423CDA71A003467AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7910291323CDA71A003467AD /* YJNAppEntranceManagerDemo.app */,
+				7910292E23CDA71B003467AD /* YJNAppEntranceManagerDemoTests.xctest */,
+				7910293923CDA71B003467AD /* YJNAppEntranceManagerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7910291523CDA71A003467AD /* YJNAppEntranceManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7910294B23CDA751003467AD /* YJNAppEntranceManager */,
+				7910291623CDA71A003467AD /* AppDelegate.h */,
+				7910291723CDA71A003467AD /* AppDelegate.m */,
+				7910291923CDA71A003467AD /* SceneDelegate.h */,
+				7910291A23CDA71A003467AD /* SceneDelegate.m */,
+				7910296023CDAAE6003467AD /* FirstWayAppDelegate.h */,
+				7910296123CDAAE6003467AD /* FirstWayAppDelegate.m */,
+				7910296323CDAB65003467AD /* SecondWayAppDelegate.h */,
+				7910296423CDAB65003467AD /* SecondWayAppDelegate.m */,
+				7910296623CDAC15003467AD /* FirstWaySceneDelegate.h */,
+				7910296723CDAC15003467AD /* FirstWaySceneDelegate.m */,
+				7910291C23CDA71A003467AD /* ViewController.h */,
+				7910291D23CDA71A003467AD /* ViewController.m */,
+				7910291F23CDA71A003467AD /* Main.storyboard */,
+				7910292223CDA71B003467AD /* Assets.xcassets */,
+				7910292423CDA71B003467AD /* LaunchScreen.storyboard */,
+				7910292723CDA71B003467AD /* Info.plist */,
+				7910292823CDA71B003467AD /* main.m */,
+			);
+			path = YJNAppEntranceManagerDemo;
+			sourceTree = "<group>";
+		};
+		7910293123CDA71B003467AD /* YJNAppEntranceManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7910293223CDA71B003467AD /* YJNAppEntranceManagerDemoTests.m */,
+				7910293423CDA71B003467AD /* Info.plist */,
+			);
+			path = YJNAppEntranceManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		7910293C23CDA71B003467AD /* YJNAppEntranceManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7910293D23CDA71B003467AD /* YJNAppEntranceManagerDemoUITests.m */,
+				7910293F23CDA71B003467AD /* Info.plist */,
+			);
+			path = YJNAppEntranceManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		7910294B23CDA751003467AD /* YJNAppEntranceManager */ = {
+			isa = PBXGroup;
+			children = (
+				7910295323CDA751003467AD /* YJNAPP */,
+				7910294C23CDA751003467AD /* YJNScene */,
+			);
+			path = YJNAppEntranceManager;
+			sourceTree = "<group>";
+		};
+		7910294C23CDA751003467AD /* YJNScene */ = {
+			isa = PBXGroup;
+			children = (
+				7910294F23CDA751003467AD /* YJNSceneDelegateManager.h */,
+				7910295123CDA751003467AD /* YJNSceneDelegateManager.m */,
+				7910295223CDA751003467AD /* UIWindowScene+YJNExtension.h */,
+				7910294E23CDA751003467AD /* UIWindowScene+YJNExtension.m */,
+				7910295023CDA751003467AD /* YJNSceneDelegateExtension.h */,
+				7910294D23CDA751003467AD /* YJNSceneDelegateExtension.m */,
+			);
+			path = YJNScene;
+			sourceTree = "<group>";
+		};
+		7910295323CDA751003467AD /* YJNAPP */ = {
+			isa = PBXGroup;
+			children = (
+				7910295423CDA751003467AD /* YJNAppDelegateManager.h */,
+				7910295723CDA751003467AD /* YJNAppDelegateManager.m */,
+				7910295623CDA751003467AD /* UIApplication+YJNExtension.h */,
+				7910295923CDA751003467AD /* UIApplication+YJNExtension.m */,
+				7910295523CDA751003467AD /* YJNAppDelegateExtesion.h */,
+				7910295823CDA751003467AD /* YJNAppDelegateExtesion.m */,
+			);
+			path = YJNAPP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7910291223CDA71A003467AD /* YJNAppEntranceManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7910294223CDA71B003467AD /* Build configuration list for PBXNativeTarget "YJNAppEntranceManagerDemo" */;
+			buildPhases = (
+				7910290F23CDA71A003467AD /* Sources */,
+				7910291023CDA71A003467AD /* Frameworks */,
+				7910291123CDA71A003467AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJNAppEntranceManagerDemo;
+			productName = YJNAppEntranceManagerDemo;
+			productReference = 7910291323CDA71A003467AD /* YJNAppEntranceManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7910292D23CDA71B003467AD /* YJNAppEntranceManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7910294523CDA71B003467AD /* Build configuration list for PBXNativeTarget "YJNAppEntranceManagerDemoTests" */;
+			buildPhases = (
+				7910292A23CDA71B003467AD /* Sources */,
+				7910292B23CDA71B003467AD /* Frameworks */,
+				7910292C23CDA71B003467AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7910293023CDA71B003467AD /* PBXTargetDependency */,
+			);
+			name = YJNAppEntranceManagerDemoTests;
+			productName = YJNAppEntranceManagerDemoTests;
+			productReference = 7910292E23CDA71B003467AD /* YJNAppEntranceManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7910293823CDA71B003467AD /* YJNAppEntranceManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7910294823CDA71B003467AD /* Build configuration list for PBXNativeTarget "YJNAppEntranceManagerDemoUITests" */;
+			buildPhases = (
+				7910293523CDA71B003467AD /* Sources */,
+				7910293623CDA71B003467AD /* Frameworks */,
+				7910293723CDA71B003467AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7910293B23CDA71B003467AD /* PBXTargetDependency */,
+			);
+			name = YJNAppEntranceManagerDemoUITests;
+			productName = YJNAppEntranceManagerDemoUITests;
+			productReference = 7910293923CDA71B003467AD /* YJNAppEntranceManagerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7910290B23CDA71A003467AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = yinjn;
+				TargetAttributes = {
+					7910291223CDA71A003467AD = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					7910292D23CDA71B003467AD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7910291223CDA71A003467AD;
+					};
+					7910293823CDA71B003467AD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7910291223CDA71A003467AD;
+					};
+				};
+			};
+			buildConfigurationList = 7910290E23CDA71A003467AD /* Build configuration list for PBXProject "YJNAppEntranceManagerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7910290A23CDA71A003467AD;
+			productRefGroup = 7910291423CDA71A003467AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7910291223CDA71A003467AD /* YJNAppEntranceManagerDemo */,
+				7910292D23CDA71B003467AD /* YJNAppEntranceManagerDemoTests */,
+				7910293823CDA71B003467AD /* YJNAppEntranceManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7910291123CDA71A003467AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7910292623CDA71B003467AD /* LaunchScreen.storyboard in Resources */,
+				7910292323CDA71B003467AD /* Assets.xcassets in Resources */,
+				7910292123CDA71A003467AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7910292C23CDA71B003467AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7910293723CDA71B003467AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7910290F23CDA71A003467AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7910291E23CDA71A003467AD /* ViewController.m in Sources */,
+				7910296823CDAC15003467AD /* FirstWaySceneDelegate.m in Sources */,
+				7910291823CDA71A003467AD /* AppDelegate.m in Sources */,
+				7910295D23CDA751003467AD /* YJNAppDelegateManager.m in Sources */,
+				7910295A23CDA751003467AD /* YJNSceneDelegateExtension.m in Sources */,
+				7910292923CDA71B003467AD /* main.m in Sources */,
+				7910295B23CDA751003467AD /* UIWindowScene+YJNExtension.m in Sources */,
+				7910295F23CDA751003467AD /* UIApplication+YJNExtension.m in Sources */,
+				7910291B23CDA71A003467AD /* SceneDelegate.m in Sources */,
+				7910296223CDAAE6003467AD /* FirstWayAppDelegate.m in Sources */,
+				7910295E23CDA751003467AD /* YJNAppDelegateExtesion.m in Sources */,
+				7910296523CDAB65003467AD /* SecondWayAppDelegate.m in Sources */,
+				7910295C23CDA751003467AD /* YJNSceneDelegateManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7910292A23CDA71B003467AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7910293323CDA71B003467AD /* YJNAppEntranceManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7910293523CDA71B003467AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7910293E23CDA71B003467AD /* YJNAppEntranceManagerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7910293023CDA71B003467AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7910291223CDA71A003467AD /* YJNAppEntranceManagerDemo */;
+			targetProxy = 7910292F23CDA71B003467AD /* PBXContainerItemProxy */;
+		};
+		7910293B23CDA71B003467AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7910291223CDA71A003467AD /* YJNAppEntranceManagerDemo */;
+			targetProxy = 7910293A23CDA71B003467AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7910291F23CDA71A003467AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7910292023CDA71A003467AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7910292423CDA71B003467AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7910292523CDA71B003467AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7910294023CDA71B003467AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7910294123CDA71B003467AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7910294323CDA71B003467AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJNAppEntranceManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjn.YJNAppEntranceManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7910294423CDA71B003467AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJNAppEntranceManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjn.YJNAppEntranceManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7910294623CDA71B003467AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJNAppEntranceManagerDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjn.YJNAppEntranceManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJNAppEntranceManagerDemo.app/YJNAppEntranceManagerDemo";
+			};
+			name = Debug;
+		};
+		7910294723CDA71B003467AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJNAppEntranceManagerDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjn.YJNAppEntranceManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJNAppEntranceManagerDemo.app/YJNAppEntranceManagerDemo";
+			};
+			name = Release;
+		};
+		7910294923CDA71B003467AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJNAppEntranceManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjn.YJNAppEntranceManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YJNAppEntranceManagerDemo;
+			};
+			name = Debug;
+		};
+		7910294A23CDA71B003467AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJNAppEntranceManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjn.YJNAppEntranceManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YJNAppEntranceManagerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7910290E23CDA71A003467AD /* Build configuration list for PBXProject "YJNAppEntranceManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7910294023CDA71B003467AD /* Debug */,
+				7910294123CDA71B003467AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7910294223CDA71B003467AD /* Build configuration list for PBXNativeTarget "YJNAppEntranceManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7910294323CDA71B003467AD /* Debug */,
+				7910294423CDA71B003467AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7910294523CDA71B003467AD /* Build configuration list for PBXNativeTarget "YJNAppEntranceManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7910294623CDA71B003467AD /* Debug */,
+				7910294723CDA71B003467AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7910294823CDA71B003467AD /* Build configuration list for PBXNativeTarget "YJNAppEntranceManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7910294923CDA71B003467AD /* Debug */,
+				7910294A23CDA71B003467AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7910290B23CDA71A003467AD /* Project object */;
+}
